@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 1em;
+    left: 4em;
+    font-family: 'Montserrat';
+    font-size: 5em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    border: 5px solid black;
+    padding: .2em;
+  }
+#Garden{
+
+    position: absolute;
+    top: 4em;
+    left: 40em;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    width: auto;
+    padding: .2em;
+
+}
+.panorama{
+    cursor: pointer;
+}
+.panorama:hover{
+    background-color: rgba(230,230,230,0.9);
+}
+
+#PanoramaContainer{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    right: 0;
+    background-color: rgba(255,255,255,0.6);
+}
